@@ -112,13 +112,13 @@ const char* password = "Your_PASSWORD";
 6. Open Serial Monitor -> Get the ESP32 IP Address -> Open in Browser(ensure you are on same netowrk as ESP32)
 
 ## 📂 File Structure
-ESP32-Environmental-Monitoring/
-|--- images/
-|       |--- ESP32-WROOM-32D_Pinout.png
-|--- src/
-|       |--- environment_monitor.ino
-|--- LICENSE
-|--- README.md
+ESP32-Environmental-Monitoring/  
+|--- images/  
+|       |--- ESP32-WROOM-32D_Pinout.png  
+|--- src/  
+|       |--- environment_monitor.ino  
+|--- LICENSE  
+|--- README.md  
 
 ## 🛠️ Future Improvements
 *To be done...*
