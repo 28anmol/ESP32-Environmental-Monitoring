@@ -18,7 +18,7 @@ This project is WiFi-enabled real-time environmental monitoring system built on 
 | 🧩 Component | 🔍 Description | 📦 Model/Type |
 |--------------|----------------|--------------|
 | 🧠 Microcontroller | Main controller of the system - with WiFi & Bluetooth | ESP32 WROOM 32D |
-| 🌡️ Temperature Sensor | To measure ambient temperature| Dallas Instruments DS18B20 Digital Temperature Sensor|
+| 🌡️ Temperature Sensor | To measure ambient temperature| Dallas Semiconductors DS18B20 Digital Temperature Sensor|
 | 💧 Humidity Sensor | To measure ambient humidity | DHT11 Sensor |
 | 🌫️ Dust Sensor | To measure suspended 2.5um particulate matter in air| GP2Y1010AU0F PM2.5 Sensor |
 | 📺 Display Screen | To display sensor readings locally | SSD1306 driver based 0.96in 128x64 monochromatic(Blue) SPI/I2C OLED display |
@@ -26,6 +26,11 @@ This project is WiFi-enabled real-time environmental monitoring system built on 
 | 🔋 Power Supply| To power the whole system | 5V USB adapter |
 | 🛠️ Multimeter | For voltage, current & continuity testing | Kaiweets HT118E 20000 count Digital Multimeter |
 | 🪛 Soldering Iron | For assembling and soldering components | 25W soldering iron |
+
+## 📐 Pin Configuration
+
+## 🧠 Software Functionality
+
 
 ## 🕓 Time Sync via NTP
 - **NTP Server**: pool.ntp.org
@@ -42,8 +47,23 @@ This project is WiFi-enabled real-time environmental monitoring system built on 
 | 150.5 - 250.4 | Very Unhealthy |
 | 250.5+ | Hazardous |
 
+## ⚙️ Setup Instructions
+
+## 📂 File Structure
+
+## 🛠️ Future Improvements
+
 ## 📸 Screenshot
 
+## 🙌 Acknowledgements
+- Inspired by practical environmental IoT monitoring solutions - targeted for deployment in a household setup
+- Thanks to extensive libraries by Adafruit, Dallas Semiconductors
 
+## 📜 License
+This project is open souce under MIT License
+
+## 🧑‍💻 Author
+🧑‍💻 Anmol Singh
+📍 Pune, India
 
 
