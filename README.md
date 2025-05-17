@@ -94,7 +94,19 @@ This project is WiFi-enabled real-time environmental monitoring system built on 
 | 250.5+ | Hazardous |
 
 ## ⚙️ Setup Instructions
-*To be done...*
+1. Install Arduino IDE and ESP32 board support via Board Manager
+2. Installed Required Libraries
+  - `WiFi.h`
+  - `DHT.h`
+  - `OneWire.h`
+  - `DallasTemperature.h`
+  - `AdaFruit_SSD1306.h`
+  - `AdaFruit_GFX.h`
+3. Configure WiFi Credentials in the code:
+```c
+const char* ssid = "Your_SSID";
+const char* password = "Your_PASSWORD";
+```
 
 ## 📂 File Structure
 *To be done...*
