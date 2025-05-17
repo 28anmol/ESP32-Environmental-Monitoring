@@ -117,7 +117,10 @@ ESP32-Environmental-Monitoring/
 |--- Datasheets/
         |--- ESP32-WROOM-32D_Pinout.png
 |--- images/  
-|       |---   
+|       |---
+|       |---
+|       |---
+|       |---
 |--- src/  
 |       |--- environment_monitor.ino  
 |--- LICENSE  
