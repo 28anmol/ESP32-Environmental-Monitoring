@@ -27,6 +27,23 @@ This project is WiFi-enabled real-time environmental monitoring system built on 
 | 🛠️ Multimeter | For voltage, current & continuity testing | Kaiweets HT118E 20000 count Digital Multimeter |
 | 🪛 Soldering Iron | For assembling and soldering components | 25W soldering iron |
 
+## 🕓 Time Sync via NTP
+- **NTP Server**: pool.ntp.org
+- **Timezone**: GMT + 5:30(Indian Standard Time)
+- Displays synchronized **date**, **time**, and **day of the week**
+
+## 🧪 Air Quality Mapping Logic
+| PM2.5 Range (µg/m³) | Air Quality Level |
+|---------------------|-------------------|
+| 0 - 12 | Clean Air |
+| 12.1 - 35.4 | Moderate |
+| 35.5 - 55.4 | Unhealthy for Sensitive Groups |
+| 55.5 - 150.4 | Unhealthy |
+| 150.5 - 250.4 | Very Unhealthy |
+| 250.5+ | Hazardous |
+
+## 📸 Screenshot
+
 
 
 
