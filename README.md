@@ -22,7 +22,7 @@ This project is WiFi-enabled real-time environmental monitoring system built on 
 | 💧 Humidity Sensor | To measure ambient humidity | DHT11 Sensor |
 | 🌫️ Dust Sensor | To measure suspended 2.5um particulate matter in air| GP2Y1010AU0F PM2.5 Sensor |
 | 📺 Display Screen | To display sensor readings locally | SSD1306 driver based 0.96in 128x64 monochromatic(Blue) SPI/I2C OLED display |
-| 🔌  Electrical Components | Prototyping components | Dupont Jumper wires(M-M, M-F, F-F), Resistors, Capacitor, Breadboard, acrylic board|
+| 🔌  Electrical Components | Prototyping components | Dupont Jumper wires(M-M, M-F, F-F), Resistors, Capacitor, Breadboard, Acrylic board|
 | 🔋 Power Supply| To power the whole system | 5V USB adapter |
 | 🛠️ Multimeter | For voltage, current & continuity testing | Kaiweets HT118E 20000 count Digital Multimeter |
 | 🪛 Soldering Iron | For assembling and soldering components | 25W soldering iron |
@@ -30,25 +30,25 @@ This project is WiFi-enabled real-time environmental monitoring system built on 
 ## 📐 Pin Configuration
 | Module | Pin Name | ESP32 GPIO |
 |--------|----------|------------|
-| OLED Display (SPI) | VCC | |
-|  | GND |  |
-|  | MOSI |  |
-|  | CLK(SCK) |  |
-|  | DC |  |
-|  | CS |  |
-|  | RESET |  |
+| OLED Display (SPI) | VCC |  |
+|  | GND | GND |
+|  | MOSI | GPIO 23 |
+|  | CLK(SCK) | GPIO 18 |
+|  | DC | GPIO 4 |
+|  | CS | GPIO 5 |
+|  | RESET | GPIO 16 |
 | DHT11 Sensor | VCC |  |
-|  | GND |  |
-|  | DATA |  |
+|  | GND | GND |
+|  | DATA | GPIO 13 |
 | DS18B20 Sensor | VCC |  |
-|  | GND |  |
-|  | DATA |  |
-| PM2.5 Sensor | V-LED |  |
-|  | LED-GND |  |
-|  | LED Control |  |
-|  | S-GND |  |
-|  | Vo(Analog Output) |  |
-|  | VCC |  |
+|  | GND | GND |
+|  | DATA | GPIO 15 |
+| PM2.5 Sensor | V-LED | 5V |
+|  | LED-GND | GND |
+|  | LED Control | GPIO 25 |
+|  | S-GND | GND |
+|  | Vo(Analog Output) | GPIO 34 |
+|  | VCC | 5V |
 
 ## 🧠 Software Functionality
 ✅ Setup
