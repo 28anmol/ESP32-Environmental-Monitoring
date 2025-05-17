@@ -30,17 +30,17 @@ This project is WiFi-enabled real-time environmental monitoring system built on 
 ## 📐 Pin Configuration
 | Module | Pin Name | ESP32 GPIO |
 |--------|----------|------------|
-| OLED Display (SPI) | VCC |  |
+| OLED Display (SPI) | VCC | 5V |
 |  | GND | GND |
 |  | MOSI | GPIO 23 |
 |  | CLK(SCK) | GPIO 18 |
 |  | DC | GPIO 4 |
 |  | CS | GPIO 5 |
 |  | RESET | GPIO 16 |
-| DHT11 Sensor | VCC |  |
+| DHT11 Sensor | VCC | 3.3V |
 |  | GND | GND |
 |  | DATA | GPIO 13 |
-| DS18B20 Sensor | VCC |  |
+| DS18B20 Sensor | VCC | 3.3V |
 |  | GND | GND |
 |  | DATA | GPIO 15 |
 | PM2.5 Sensor | V-LED | 5V |
