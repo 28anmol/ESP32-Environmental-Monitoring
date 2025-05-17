@@ -17,5 +17,16 @@ This project is WiFi-enabled real-time environmental monitoring system built on 
 ## 🔧 Hardware Used
 | 🧩 Component | 🔍 Description | 📦 Model/Type |
 |--------------|----------------|--------------|
-| 🧠 Micrcontroller | Main controller of the system | ESP32 WROOM 32D |
+| 🧠 Micrcontroller | Main controller of the system - with WiFi & Bluetooth | ESP32 WROOM 32D |
+| 🌡️ Temperature Sensor | To measure ambient temperature| Dallas Instruments DS18B20 Digital Temperature Sensor|
+| 💧 Humidity Sensor | To measure ambient humidity | DHT11 |
+| 🌫️ Dust Sensor | To measure suspended 2.5um particulate matter in air| GP2Y1010AU0F |
+| 📺 Display Screen | To display sensor readings locally | SSD1306 driver based 0.96in 128x64 monochromatic(Blue) SPI/I2C OLED display |
+| 🔌  Electrical Components | Prototyping components | Dupont Jumper wires(M-M, M-F, F-F), Resistors, Capacitor, Breadboard, acrylic board|
+| 🔋 Power Supply| To power the whole system | 5V USB adapter |
+| 🛠️ Multimeter | For voltage, current & continuity testing | Kaiweets HT118E 20000 count Digital Multimeter |
+| 🪛 Soldering Iron | For assembling and soldering components | 25W soldering iron |
+
+
+
 
