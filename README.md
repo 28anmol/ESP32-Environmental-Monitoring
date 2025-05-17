@@ -125,7 +125,11 @@ ESP32-Environmental-Monitoring/
 ```
 
 ## 🛠️ Future Improvements
-*To be done...*
+- Battery Powered Deployment
+- Mobile Notification for threshold breach
+- Data logging on a server like Raspberry Pi for storage and data analysis
+- Integration with IoT cloud based dashboards like Blynk, ThingsBoard, Home Assistant
+- Accessing ESP32 Webserver from around the world
 
 ## 📸 Screenshots
 *To be done...*
