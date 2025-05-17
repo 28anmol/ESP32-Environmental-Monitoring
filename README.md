@@ -35,7 +35,7 @@ This project is WiFi-enabled real-time environmental monitoring system built on 
   - Configures humidity sensor, temperature sensor
   - Configures the display to default settings
   - Connects ESP32 to WiFi with given credentials having a retry logic for 30sec to establish a connection
-  - Setup ESP32 as a server to listen to requests sent by other devices on the same network  
+  - Setup ESP32 as a server to listen to requests sent by other devices on the same network 
 ✅ Sensor Reading Cycle (every 60 seconds)
   - **DHT11**: Reads Humidity
   - **Ds18B20**: Reads temperature with retry logic to avoid invalid readings
@@ -43,7 +43,7 @@ This project is WiFi-enabled real-time environmental monitoring system built on 
     - Activates LED
     - Reads analog voltage
     - Converts voltage into µg/m³
-    - Categorizes air quality level  
+    - Categorizes air quality level
 🖥️ Display Output (OLED)
   - Day, Date, Time
   - Humidity
