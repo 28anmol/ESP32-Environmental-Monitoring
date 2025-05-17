@@ -63,7 +63,7 @@ This project is WiFi-enabled real-time environmental monitoring system built on 
 This project is open souce under MIT License
 
 ## 🧑‍💻 Author
-🧑‍💻 Anmol Singh
+🧑‍💻 Anmol Singh 
 📍 Pune, India
 
 
