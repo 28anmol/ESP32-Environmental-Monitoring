@@ -13,3 +13,9 @@ This project is WiFi-enabled real-time environmental monitoring system built on 
 - 🔁 **Timed sensor Updates**: Reads and updates sensor values after every 60 seconds
 - 🌐 **Responsive Web Dashboard**: Presents clean and styled HTML output of live data
 
+
+## 🔧 Hardware Used
+| 🧩 Component | 🔍 Description | 📦 Model/Type |
+|--------------|----------------|--------------|
+| 🧠 Micrcontroller | Main controller of the system | ESP32 WROOM 32D |
+
