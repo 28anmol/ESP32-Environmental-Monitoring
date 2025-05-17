@@ -120,6 +120,7 @@ ESP32-Environmental-Monitoring/
 |--- LICENSE  
 |--- README.md  
 
+
 ## 🛠️ Future Improvements
 *To be done...*
 
