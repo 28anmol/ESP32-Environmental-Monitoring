@@ -94,12 +94,16 @@ This project is WiFi-enabled real-time environmental monitoring system built on 
 | 250.5+ | Hazardous |
 
 ## ⚙️ Setup Instructions
+*To be done...*
 
 ## 📂 File Structure
+*To be done...*
 
 ## 🛠️ Future Improvements
+*To be done...*
 
-## 📸 Screenshot
+## 📸 Screenshots
+*To be done...*
 
 ## 🙌 Acknowledgements
 - Inspired by practical environmental IoT monitoring solutions - targeted for deployment in a household setup
