@@ -7,7 +7,7 @@ This project is WiFi-enabled real-time environmental monitoring system built on 
 - 📡 **WiFi Based Server**: Hosts a dynamic webpage accessible to any device on the same network
 - 🌡️ **Temperature monitoring**: Captures accurate ambient temperature using DS18B20 sensor
 - 💧 **Humidity Monitoring**: uses DHT11 humidity sensor for relative humidity data
-- **PM2.5 Air Quality Measurement**: Uses Sharp GP2Y1010AUOF dust sensor to estimate PM2.5 levels
+- 🌫️ **PM2.5 Air Quality Measurement**: Uses Sharp GP2Y1010AUOF dust sensor to estimate PM2.5 levels
 - 🕙 **Live Clock with NTP**: Fetches real time date and time using NTP(Network Time Protocol)
 - 📺 **OLED Display Output**: Display the readings on a 128x64 OLED SPI screen
 - 🔁 **Timed sensor Updates**: Reads and updates sensor values after every 60 seconds
