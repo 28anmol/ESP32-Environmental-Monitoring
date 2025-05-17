@@ -107,6 +107,9 @@ This project is WiFi-enabled real-time environmental monitoring system built on 
 const char* ssid = "Your_SSID";
 const char* password = "Your_PASSWORD";
 ```
+4. Select the correct Port and Board
+5. Upload the code to ESP32
+6. Open Serial Monitor -> Get the ESP32 IP Address -> Open in Browser(ensure you are on same netowrk as ESP32)
 
 ## 📂 File Structure
 *To be done...*
