@@ -28,6 +28,27 @@ This project is WiFi-enabled real-time environmental monitoring system built on 
 | 🪛 Soldering Iron | For assembling and soldering components | 25W soldering iron |
 
 ## 📐 Pin Configuration
+| Module | Pin Name | ESP32 GPIO |
+|--------|----------|------------|
+| OLED Display (SPI) | | |
+||||
+||||
+||||
+||||
+||||
+||||
+| DHT11 Sensor |||
+||||
+||||
+|DS18B20 Sensor|||
+||||
+||||
+| PM2.5 Sensor |||
+||||
+||||
+||||
+||||
+||||
 
 ## 🧠 Software Functionality
 ✅ Setup
