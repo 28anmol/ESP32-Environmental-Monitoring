@@ -1,6 +1,6 @@
 # 🌎 ESP32 Environmental Monitoring System 🚀
 
-This project is WiFi-enabled real-time environmental monitoring system built on ESP32 WROOM 32D microcontroller. It captures and displays key atmospheric parameters such as **temperature**🌡️, **humidity**💧, **PM2.5 dust density**, and **air quality level** using various sensors. This data is displayed locally on a **128x64 OLED display** and also served through a responsive **web interface** over the local network.
+This project is WiFi-enabled real-time environmental monitoring system built on ESP32 WROOM 32D microcontroller. It captures and displays key atmospheric parameters such as **temperature**🌡️, **humidity**💧, **PM2.5 dust density**🌫️, and **air quality level** using various sensors. This data is displayed locally on a **128x64 OLED display** and also served through a responsive **web interface** over the local network.
 
 
 ## 🚀 Features
@@ -58,7 +58,7 @@ This project is WiFi-enabled real-time environmental monitoring system built on 
 
 
 ## 🕓 Time Sync via NTP
-- **NTP Server**: pool.ntp.org
+- **NTP Server**: ```pool.ntp.org```
 - **Timezone**: GMT + 5:30(Indian Standard Time)
 - Displays synchronized **date**, **time**, and **day of the week**
 
