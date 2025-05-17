@@ -113,9 +113,11 @@ const char* password = "Your_PASSWORD";
 
 ## 📂 File Structure
 ```
-ESP32-Environmental-Monitoring/  
+ESP32-Environmental-Monitoring/
+|--- Datasheets/
+        |--- ESP32-WROOM-32D_Pinout.png
 |--- images/  
-|       |--- ESP32-WROOM-32D_Pinout.png  
+|       |---   
 |--- src/  
 |       |--- environment_monitor.ino  
 |--- LICENSE  
