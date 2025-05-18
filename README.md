@@ -186,7 +186,7 @@ const char* password = "Your_PASSWORD";
 ## 📂 File Structure
 ```
 ESP32-Environmental-Monitoring/
-|--- Datasheets/
+|--- sensor_calibration/
 |       |--- mq135_sensor_calibrate.ino
 |--- Datasheets/
 |       |--- ESP32-WROOM-32D_Pinout.png
