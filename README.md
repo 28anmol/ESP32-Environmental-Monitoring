@@ -89,7 +89,7 @@ This project is WiFi-enabled real-time environmental monitoring system built on 
   - AQI Level (e.g., Clean Air, Moderate, Unhealthy, Hazardous)
     
 🌐 Web Server Output
-  - Styled HTML web page accessible at http://<ESP32_IP> showing all live sensor readings  
+  - Styled HTML web page accessible at `http://<ESP32_IP>` showing all live sensor readings  
 
 
 ## 🕓 Time Sync via NTP
