@@ -1,6 +1,6 @@
 # 🌎 ESP32 Environmental Monitoring System 🚀
 
-This project is WiFi-enabled real-time environmental monitoring system built on **ESP32 WROOM 32D** microcontroller. It captures and displays key atmospheric parameters such as **temperature**🌡️, **humidity**💧, **PM2.5 dust density**🌫️, and **air quality level** using various sensors. This data is displayed locally on a **128x64 OLED display** and also served through a responsive **web interface** hosted on ESP32 itselfover the local network.
+This project is WiFi-enabled real-time environmental monitoring system built on **ESP32 WROOM 32D** microcontroller. It captures and displays key atmospheric parameters such as **temperature**🌡️, **humidity**💧, **PM2.5 dust density**🌫️, **dust levels**💨, **Air PPM levels**🏭 and **air quality index(AQI)⚠️** using various sensors. This data is displayed locally on a **128x64 OLED display** and also served through a responsive **web interface** hosted on ESP32 itselfover the local network.
 
 
 ## 🚀 Features
@@ -8,6 +8,9 @@ This project is WiFi-enabled real-time environmental monitoring system built on 
 - 🌡️ **Temperature monitoring**: Captures accurate ambient temperature using digital temperature sensor
 - 💧 **Humidity Monitoring**: uses humidity sensor for relative humidity data
 - 🌫️ **PM2.5 Air Quality Measurement**: Uses dust density sensor to estimate PM2.5 levels
+- 💨 **Dust Level**: Based on PM2.5 level, it classifies the value into dust density levels
+- 🏭 **Air PPM Levels**: Uses air quality/gas detector sensor to estimate PPM levels
+- ⚠️ **AQI Level**: Based on PPM level, it categorizes the value into Air Quality Index
 - 🕙 **Live Clock with NTP**: Fetches real time date and time using NTP(Network Time Protocol)
 - 📺 **OLED Display Output**: Display the readings on a OLED screen
 - 🔁 **Timed sensor Updates**: Reads and updates sensor values after every 60 seconds
@@ -21,8 +24,11 @@ This project is WiFi-enabled real-time environmental monitoring system built on 
 | 🌡️ Temperature Sensor | To measure ambient temperature| Dallas Semiconductors DS18B20 Digital Temperature Sensor (Breakout Board)|
 | 💧 Humidity Sensor | To measure ambient humidity | DHT11 Sensor (Breakout Board) |
 | 🌫️ Dust Sensor | To measure suspended 2.5um particulate matter in air| PM2.5 GP2Y1010AU0F Dust Smoke Particle Sensor |
+| 🌫️ Air Quality/Gas Detection Sensor | To measure air quality & Parts Per Million in Air| MQ-135 Air Quality/Gas Detection Sensor (Breakout Board) |
 | 📺 Display Screen | To display sensor readings locally | SSD1306 driver based 0.96" 7Pin 128x64 monochromatic(Blue) SPI/I2C OLED display (Breakout Board) |
-| 🔌  Electrical Components | Prototyping components | Dupont Jumper wires(M-M, M-F, F-F), Resistors, Capacitor, Breadboard, Acrylic board|
+| 150Ω resistor + 220µF Capacitor  | Resistor to limit current in IR LED, Capacitor for signal smoothening | For PM2.5 GP2Y1010AU0F Dust Smoke Particle Sensor |
+| 2x 10kΩ resistor  | Resistors act as voltage divider to protect ESP32 Analog pins from voltage surge from analog pin of the sensor | For MQ-135 Air Quality/Gas Detection Sensor |
+| 🔌  Electrical Components | Prototyping components | Dupont Jumper wires(M-M, M-F, F-F), Breadboard, Acrylic board|
 | 🔋 Power Supply| To power the whole system | Laptop USB adapter |
 | 🛠️ Multimeter | For voltage, current & continuity testing | Kaiweets HT118E 20000 count Digital Multimeter |
 | 🪛 Soldering Iron | For assembling and soldering components | 25W soldering iron |
