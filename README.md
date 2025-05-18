@@ -122,6 +122,10 @@ ESP32-Environmental-Monitoring/
 |       |--- ESP32_DevBoard_Pinout.png
 |       |--- Dust_Sensor_Connection.png
 |       |--- DS18B20_Pinout.png
+|       |--- DS18B20_Datasheet.pdf
+|       |--- ESP32_Datasheet.pdf
+|       |--- PM2.5_Datasheet.pdf
+|       |--- DHT11_Datasheet.pdf
 |--- images/  
 |       |---
 |       |---
