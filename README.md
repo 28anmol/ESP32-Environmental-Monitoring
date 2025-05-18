@@ -124,7 +124,6 @@ This project is WiFi-enabled real-time environmental monitoring system built on 
 | 300.1+ | 🟤 Hazardous |
 
 ## ⚙️ MQ135 Sensor Prerequisites & Calibration Instructions
-*To be done...*
 MQ135 air quality/dust detector sensor requires an initial burn-in time of 24-48hrs(brand new sensor). For that purpose, please connect the following mentioned pins of the sensor to arduino UNO, powering UNO through PC and burn in for atleast 24hrs to get stable results.
 
 | Module | Pin Name | Arduino UNO GPIO |
