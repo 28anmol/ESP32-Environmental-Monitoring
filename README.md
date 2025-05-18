@@ -94,20 +94,20 @@ This project is WiFi-enabled real-time environmental monitoring system built on 
 | 250.5+ | Hazardous |
 
 ## ⚙️ Setup Instructions
-1. Install Arduino IDE and ESP32 board support via Board Manager
-2. Installed Required Libraries
+1. Install Arduino IDE and ESP32 board support via board manager
+2. Install required libraries
     - `WiFi.h`
     - `DHT.h`
     - `OneWire.h`
     - `DallasTemperature.h`
     - `AdaFruit_SSD1306.h`
     - `AdaFruit_GFX.h`
-3. Configure WiFi Credentials in the code:
+3. Configure WiFi credentials in the code:
 ```c
 const char* ssid = "Your_SSID";
 const char* password = "Your_PASSWORD";
 ```
-4. Select the correct Port and Board
+4. Select the correct port and board
 5. Upload the code to ESP32
 6. Open Serial Monitor -> Get the ESP32 IP Address -> Open in Browser(ensure you are on same netowrk as ESP32)
 
@@ -128,11 +128,11 @@ ESP32-Environmental-Monitoring/
 ```
 
 ## 🛠️ Future Improvements
-- Battery Powered Deployment
-- Mobile Notification for threshold breach
+- Battery powered deployment
+- Mobile notification for threshold breach
 - Data logging on a server like Raspberry Pi for storage and data analysis
 - Integration with IoT cloud based dashboards like Blynk, ThingsBoard, Home Assistant
-- Accessing ESP32 Webserver from around the world
+- Accessing ESP32 webserver from around the world(outside home/local network)
 
 ## 📸 Screenshots
 *To be done...*
