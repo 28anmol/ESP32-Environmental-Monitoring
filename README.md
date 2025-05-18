@@ -21,6 +21,7 @@ This project is WiFi-enabled real-time environmental monitoring system built on 
 | 🧩 Component | 🔍 Description | 📦 Model/Type |
 |--------------|----------------|--------------|
 | 🧠 Microcontroller | Main controller of the system - with WiFi & Bluetooth | ESP32 WROOM 32D IoT development board|
+| 🧠 Secondary Microcontroller | Main controller - To calibrate air quality/dust detector sensor | Arduino UNO Rev3 development board|
 | 🌡️ Temperature Sensor | To measure ambient temperature| Dallas Semiconductors DS18B20 Digital Temperature Sensor (Breakout Board)|
 | 💧 Humidity Sensor | To measure ambient humidity | DHT11 Sensor (Breakout Board) |
 | 🌫️ Dust Sensor | To measure suspended 2.5um particulate matter in air| PM2.5 GP2Y1010AU0F Dust Smoke Particle Sensor |
@@ -32,6 +33,7 @@ This project is WiFi-enabled real-time environmental monitoring system built on 
 | 🔋 Power Supply| To power the whole system | Laptop USB adapter |
 | 🛠️ Multimeter | For voltage, current & continuity testing | Kaiweets HT118E 20000 count Digital Multimeter |
 | 🪛 Soldering Iron | For assembling and soldering components | 25W soldering iron |
+
 
 ## 📐 Pin Configuration
 | Module | Pin Name | ESP32 GPIO |
