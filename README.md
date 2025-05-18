@@ -231,7 +231,13 @@ ESP32-Environmental-Monitoring/
 - Accessing ESP32 webserver from around the world(outside home/local network)
 
 ## 📸 Project Setup
-*To be done...*
+<p align="center">
+  <img src="https://github.com/28anmol/ESP32-Environmental-Monitoring/blob/main/images/Setup1.jpeg" alt="Setup1" width="800" height="600"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/28anmol/ESP32-Environmental-Monitoring/blob/main/images/Setup2.jpeg" alt="Setup2" width="800" height="600"/>
+</p>
 
 ## 📸 OLED Screen Readings
 <p align="center">
@@ -243,7 +249,7 @@ ESP32-Environmental-Monitoring/
   <img src="https://github.com/28anmol/ESP32-Environmental-Monitoring/blob/main/images/WebInterface.jpeg" alt="ESP32 Web Interface" width="200" height="400"/>
 </p>
 
-## 📸 Serial monitor Output
+## 📸 Serial Monitor Output
 <p align="center">
   <img src="https://github.com/28anmol/ESP32-Environmental-Monitoring/blob/main/images/SerialOutput1.png" alt="Serial Monitor Output" width="400" height="200"/>
 </p>
