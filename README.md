@@ -134,7 +134,7 @@ This project is WiFi-enabled real-time environmental monitoring system built on 
     - `DallasTemperature.h`
     - `AdaFruit_SSD1306.h`
     - `AdaFruit_GFX.h`
-    - `#include <MQUnifiedsensor.h>`
+    - `MQUnifiedsensor.h`
 4. Configure WiFi credentials in the code:
 ```c
 const char* ssid = "Your_SSID";
@@ -148,17 +148,22 @@ const char* password = "Your_PASSWORD";
 ```
 ESP32-Environmental-Monitoring/
 |--- Datasheets/
+|       |--- mq135_sensor_calibrate.ino
+|--- Datasheets/
 |       |--- ESP32-WROOM-32D_Pinout.png
 |       |--- DHT11_Pinout.png
 |       |--- Dust_Sensor_Pinout.png
 |       |--- OLED_Display_Pinout.png
 |       |--- ESP32_DevBoard_Pinout.png
 |       |--- Dust_Sensor_Connection.png
+|       |--- MQ135_sensor_pinout.png
+|       |--- MQ135_sensor_voltagedivider.png
 |       |--- DS18B20_Pinout.png
 |       |--- DS18B20_Datasheet.pdf
 |       |--- ESP32_Datasheet.pdf
 |       |--- PM2.5_Datasheet.pdf
 |       |--- DHT11_Datasheet.pdf
+|       |--- MQ135_datasheet.pdf
 |--- images/  
 |       |---
 |       |---
@@ -184,6 +189,9 @@ ESP32-Environmental-Monitoring/
 *To be done...*
 
 ## 📸 Web Interface Display
+*To be done...*
+
+## 📸 Serial monitor Output
 *To be done...*
 
 ## 🙌 Acknowledgements
