@@ -60,7 +60,7 @@ This project is WiFi-enabled real-time environmental monitoring system built on 
     
 ✅ Sensor Reading Cycle (every 60 seconds)
   - **DHT11**: Reads Humidity
-  - **Ds18B20**: Reads temperature with retry logic to avoid invalid readings
+  - **DS18B20**: Reads temperature with retry logic to avoid invalid readings
   - **PM2.5 (GP2Y1010AU0F)**:
     - Activates LED
     - Reads analog voltage
