@@ -240,11 +240,13 @@ ESP32-Environmental-Monitoring/
 
 ## 📸 Web Interface Display
 <p align="center">
-  <img src="https://github.com/28anmol/ESP32-Environmental-Monitoring/blob/main/images/WebInterface.jpeg" alt="ESP32 Web Interface" width="300" height="400"/>
+  <img src="https://github.com/28anmol/ESP32-Environmental-Monitoring/blob/main/images/WebInterface.jpeg" alt="ESP32 Web Interface" width="200" height="400"/>
 </p>
 
 ## 📸 Serial monitor Output
-*To be done...*
+<p align="center">
+  <img src="https://github.com/28anmol/ESP32-Environmental-Monitoring/blob/main/images/SerialOutput1.png" alt="Serial Monitor Output" width="400" height="400"/>
+</p>
 
 ## 🙌 Acknowledgements
 - Inspired by practical environmental IoT monitoring solutions - targeted for deployment in a household setup
