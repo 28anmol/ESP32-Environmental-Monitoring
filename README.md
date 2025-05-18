@@ -69,7 +69,7 @@ This project is WiFi-enabled real-time environmental monitoring system built on 
       
 🖥️ Display Output (OLED)
   - Day, Date, Time
-  - Humidity
+  - Humidity(%)
   - Temperature(°C)
   - PM2.5 Dust Density (µg/m³)
   - PM2.5 Level (e.g., Clean Air, Unhealthy, Hazardous)
