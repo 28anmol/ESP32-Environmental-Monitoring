@@ -123,6 +123,45 @@ This project is WiFi-enabled real-time environmental monitoring system built on 
 | 200.1 - 300.0 | 🟣 Very Unhealthy |
 | 300.1+ | 🟤 Hazardous |
 
+## ⚙️ MQ135 Sensor Prerequisites & Calibration Instructions
+*To be done...*
+MQ135 air quality/dust detector sensor requires an initial burn-in time of 24-48hrs(brand new sensor). For that purpose, please connect the following mentioned pins of the sensor to arduino UNO, powering UNO through PC and burn in for atleast 24hrs to get stable results.
+
+| Module | Pin Name | Arduino UNO GPIO |
+|--------|----------|------------|
+| MQ135 Sensor | VCC | 5V |
+|  | GND | GND |
+
+Once preheat is complete, perform calibration through arduino UNO to determine RO value of the sensor:
+1. Install Arduino IDE and ESP32 board support via board manager
+2. Make the necessary electrical connections(VCC, GND and analog input)
+| Module | Pin Name | Arduino GPIO |
+|--------|----------|------------|
+| MQ135 Sensor | VCC | 5V |
+|  | GND | GND |
+|  | AO | A0 (No voltage divider required)|
+   
+4. Select the correct port and board(Arduino UNO)
+5. Upload the code from `sensor_calibration` folder to arduino UNO
+6. Open Serial Monitor -> Get the RO values displayed
+7. Open the project code from `src` folder and make the following changes to RO and RL
+   
+```c
+void setup_MQ135()
+{
+  delay(10000);
+  MQ135.setRegressionMethod(1); 
+  MQ135.init();
+
+  MQ135.setRL(20); // Look up this value from the datasheet
+  MQ135.setR0(28.8); // Punch the RO value received from sensor calibration
+  MQ135.setA(110.47);
+  MQ135.setB(-2.862);
+}
+```
+8. Once finished, proceed with main project execution
+
+
 
 ## ⚙️ Project Setup Instructions
 1. Install Arduino IDE and ESP32 board support via board manager
