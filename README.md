@@ -1,6 +1,6 @@
 # 🌎 ESP32 Environmental Monitoring System 🚀
 
-This project is WiFi-enabled real-time environmental monitoring system built on **ESP32 WROOM 32D** microcontroller. It captures and displays key atmospheric parameters such as **temperature**🌡️, **humidity**💧, **PM2.5 dust density**🌫️, **dust levels**💨, **Air PPM levels**🏭 and **air quality index(AQI)⚠️** using various sensors. This data is displayed locally on a **128x64 OLED display** and also served through a responsive **web interface** hosted on ESP32 itselfover the local network.
+This project is WiFi-enabled real-time environmental monitoring system built on **ESP32 WROOM 32D** microcontroller. It captures and displays key atmospheric parameters such as **temperature**🌡️, **humidity**💧, **PM2.5 dust density**🌫️, **dust levels**💨, **air PPM levels**🏭 and **air quality index(AQI)⚠️** using various sensors. This data is displayed locally on a **128x64 OLED display** and also served through a responsive **web interface** hosted on ESP32 itselfover the local network.
 
 
 ## 🚀 Features
@@ -108,6 +108,7 @@ This project is WiFi-enabled real-time environmental monitoring system built on 
     - `DallasTemperature.h`
     - `AdaFruit_SSD1306.h`
     - `AdaFruit_GFX.h`
+    - `#include <MQUnifiedsensor.h>`
 3. Configure WiFi credentials in the code:
 ```c
 const char* ssid = "Your_SSID";
@@ -138,7 +139,7 @@ ESP32-Environmental-Monitoring/
 |       |---
 |       |---
 |--- src/  
-|       |--- environment_monitor.ino  
+|       |--- environmental_monitoring_system.ino  
 |--- LICENSE  
 |--- README.md  
 ```
@@ -146,7 +147,7 @@ ESP32-Environmental-Monitoring/
 ## 🛠️ Future Improvements
 - Battery powered deployment
 - Mobile notification for threshold breach
-- Data logging on a server like Raspberry Pi for storage and data analysis
+- Data logging on a server like Raspberry Pi/PC for storage and data analysis
 - Integration with IoT cloud based dashboards like Blynk, ThingsBoard, Home Assistant
 - Accessing ESP32 webserver from around the world(outside home/local network)
 
