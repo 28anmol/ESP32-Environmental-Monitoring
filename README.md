@@ -240,7 +240,7 @@ ESP32-Environmental-Monitoring/
 
 ## 📸 Web Interface Display
 <p align="center">
-  <img src="https://github.com/28anmol/ESP32-Environmental-Monitoring/blob/main/images/WebInterface.jpeg" alt="ESP32 Web Interface" width="200" height="400"/>
+  <img src="https://github.com/28anmol/ESP32-Environmental-Monitoring/blob/main/images/WebInterface.jpeg" alt="ESP32 Web Interface" width="300" height="400"/>
 </p>
 
 ## 📸 Serial monitor Output
