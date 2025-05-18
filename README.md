@@ -17,7 +17,7 @@ This project is WiFi-enabled real-time environmental monitoring system built on 
 ## 🔧 Hardware Used
 | 🧩 Component | 🔍 Description | 📦 Model/Type |
 |--------------|----------------|--------------|
-| 🧠 Microcontroller | Main controller of the system - with WiFi & Bluetooth | ESP32 WROOM 32D development board|
+| 🧠 Microcontroller | Main controller of the system - with WiFi & Bluetooth | ESP32 WROOM 32D IoT development board|
 | 🌡️ Temperature Sensor | To measure ambient temperature| Dallas Semiconductors DS18B20 Digital Temperature Sensor (Breakout Board)|
 | 💧 Humidity Sensor | To measure ambient humidity | DHT11 Sensor (Breakout Board) |
 | 🌫️ Dust Sensor | To measure suspended 2.5um particulate matter in air| GP2Y1010AU0F PM2.5 Sensor |
@@ -118,6 +118,8 @@ ESP32-Environmental-Monitoring/
 |       |--- ESP32-WROOM-32D_Pinout.png
 |       |--- DHT11_Pinout.png
 |       |--- Dust_Sensor_Pinout.png
+|       |--- OLED_Display_Pinout.png
+|       |--- ESP32_DevBoard_Pinout.png
 |--- images/  
 |       |---
 |       |---
