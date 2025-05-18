@@ -245,7 +245,7 @@ ESP32-Environmental-Monitoring/
 
 ## 📸 Serial monitor Output
 <p align="center">
-  <img src="https://github.com/28anmol/ESP32-Environmental-Monitoring/blob/main/images/SerialOutput1.png" alt="Serial Monitor Output" width="400" height="400"/>
+  <img src="https://github.com/28anmol/ESP32-Environmental-Monitoring/blob/main/images/SerialOutput1.png" alt="Serial Monitor Output" width="400" height="200"/>
 </p>
 
 ## 🙌 Acknowledgements
