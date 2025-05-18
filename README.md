@@ -120,6 +120,8 @@ ESP32-Environmental-Monitoring/
 |       |--- Dust_Sensor_Pinout.png
 |       |--- OLED_Display_Pinout.png
 |       |--- ESP32_DevBoard_Pinout.png
+|       |--- Dust_Sensor_Connection.png
+|       |--- DS18B20_Pinout.png
 |--- images/  
 |       |---
 |       |---
