@@ -140,7 +140,7 @@ Once preheat is complete, perform calibration through arduino UNO to determine R
 |--------|----------|------------|
 | MQ135 Sensor | VCC | 5V |
 |  | GND | GND |
-|  | AO | A0 (No voltage divider required)|
+|  | A0 | A0 (No voltage divider required)|
    
 4. Select the correct port and board(Arduino UNO)
 5. Upload the code from `sensor_calibration` folder to arduino UNO
