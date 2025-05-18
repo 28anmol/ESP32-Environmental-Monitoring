@@ -234,7 +234,9 @@ ESP32-Environmental-Monitoring/
 *To be done...*
 
 ## 📸 OLED Screen Readings
-*To be done...*
+<p align="center">
+  <img src="https://github.com/28anmol/ESP32-Environmental-Monitoring/blob/main/images/OLED_Display.jpeg" alt="OLED Display" width="500" height="400"/>
+</p>
 
 ## 📸 Web Interface Display
 <p align="center">
