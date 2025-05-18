@@ -115,7 +115,8 @@ const char* password = "Your_PASSWORD";
 ```
 ESP32-Environmental-Monitoring/
 |--- Datasheets/
-        |--- ESP32-WROOM-32D_Pinout.png
+|       |--- ESP32-WROOM-32D_Pinout.png
+|       |--- DHT11_Pinout.png
 |--- images/  
 |       |---
 |       |---
