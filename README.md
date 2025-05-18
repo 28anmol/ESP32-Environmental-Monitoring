@@ -1,6 +1,6 @@
 # 🌎 ESP32 Environmental Monitoring System 🚀
 
-This project is WiFi-enabled real-time environmental monitoring system built on **ESP32 WROOM 32D** microcontroller. It captures and displays key atmospheric parameters such as **temperature**🌡️, **humidity**💧, **PM2.5 dust density**🌫️, **dust levels**💨, **air PPM levels**🏭 and **air quality index(AQI)⚠️** using various sensors. This data is displayed locally on a **128x64 OLED display** and also served through a responsive **web interface** hosted on ESP32 itselfover the local network.
+This project is WiFi-enabled real-time environmental monitoring system built on **ESP32 WROOM 32D** microcontroller. It captures and displays key atmospheric parameters such as **temperature**🌡️, **humidity**💧, **PM2.5 dust density**🌫️, **dust levels**💨, **air PPM levels**🏭 and **air quality index(AQI)⚠️** using various sensors. This data is displayed locally on a **128x64 OLED display** and also served through a responsive **web interface** hosted on ESP32 itself over the local network.
 
 
 ## 🚀 Features
@@ -60,11 +60,12 @@ This project is WiFi-enabled real-time environmental monitoring system built on 
 
 ## 🧠 Software Functionality
 ✅ Setup
-  - Sets designated pins as inputs or outputs respectively
-  - Configures humidity sensor, temperature sensor
-  - Configures the display to default settings
+  - Sets designated esp32 gpio pins as inputs/outputs
+  - Configures humidity sensor, temperature sensor, MQ135 sensor
+  - Configures the oled display to default settings
   - Connects ESP32 to WiFi with given credentials having a retry logic for 30sec to establish a connection
   - Setup ESP32 as a server to listen to requests sent by other devices on the same network
+  - Configures time to be fetched from NTP server
     
 ✅ Sensor Reading Cycle (every 60 seconds)
   - **DHT11**: Reads Humidity
@@ -73,6 +74,10 @@ This project is WiFi-enabled real-time environmental monitoring system built on 
     - Activates LED
     - Reads analog voltage
     - Converts voltage into µg/m³
+    - Categorizes dust density level
+  - **MQ-135 Sensor**:
+    - Reads analog voltage
+    - Converts voltage into ppm level
     - Categorizes air quality level
       
 🖥️ Display Output (OLED)
@@ -80,7 +85,8 @@ This project is WiFi-enabled real-time environmental monitoring system built on 
   - Humidity(%)
   - Temperature(°C)
   - PM2.5 Dust Density (µg/m³)
-  - PM2.5 Level (e.g., Clean Air, Unhealthy, Hazardous)
+  - Air PPM Level
+  - AQI Level (e.g., Clean Air, Moderate, Unhealthy, Hazardous)
     
 🌐 Web Server Output
   - Styled HTML web page accessible at http://<ESP32_IP> showing all live sensor readings  
@@ -165,7 +171,13 @@ ESP32-Environmental-Monitoring/
 - Integration with IoT cloud based dashboards like Blynk, ThingsBoard, Home Assistant
 - Accessing ESP32 webserver from around the world(outside home/local network)
 
-## 📸 Screenshots
+## 📸 Project Setup
+*To be done...*
+
+## 📸 OLED Screen Readings
+*To be done...*
+
+## 📸 Web Interface Display
 *To be done...*
 
 ## 🙌 Acknowledgements
