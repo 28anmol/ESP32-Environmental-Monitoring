@@ -61,6 +61,7 @@ This project is WiFi-enabled real-time environmental monitoring system built on 
 |  | GND | GND |
 |  | DO |  |
 |  | AO | GPIO 32 (**Voltage Divider with 2x 10 kilo-ohm resistors)|
+
 ***Please Note: Make the electrical connections for PM2.5 and MQ135 sensors as shown in pictures in datasheets folder since it includes extra components such as capacitors & resistors*
 
 ## 🧠 Software Functionality
