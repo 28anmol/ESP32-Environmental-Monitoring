@@ -297,7 +297,7 @@ void config_time_esp32()
 // Function to setup mq135 sensor
 void setup_MQ135()
 {
-  delay(3000);
+  delay(10000);
   MQ135.setRegressionMethod(1); 
   MQ135.init();
 
