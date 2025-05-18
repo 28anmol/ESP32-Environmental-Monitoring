@@ -111,9 +111,11 @@ This project is WiFi-enabled real-time environmental monitoring system built on 
 | 200.1 - 300.0 | 🟣 Very Unhealthy |
 | 300.1+ | 🟤 Hazardous |
 
-## ⚙️ Setup Instructions
+
+## ⚙️ Project Setup Instructions
 1. Install Arduino IDE and ESP32 board support via board manager
-2. Install required libraries
+2. Make the necessary electrical connections
+3. Install required libraries
     - `WiFi.h`
     - `DHT.h`
     - `OneWire.h`
@@ -121,14 +123,14 @@ This project is WiFi-enabled real-time environmental monitoring system built on 
     - `AdaFruit_SSD1306.h`
     - `AdaFruit_GFX.h`
     - `#include <MQUnifiedsensor.h>`
-3. Configure WiFi credentials in the code:
+4. Configure WiFi credentials in the code:
 ```c
 const char* ssid = "Your_SSID";
 const char* password = "Your_PASSWORD";
 ```
-4. Select the correct port and board
-5. Upload the code to ESP32
-6. Open Serial Monitor -> Get the ESP32 IP Address -> Open in Browser(ensure you are on same netowrk as ESP32)
+5. Select the correct port and board
+6. Upload the code from `src` folder to ESP32
+7. Open Serial Monitor -> Get the ESP32 IP Address -> Open in Browser(ensure you are on same netowrk as ESP32)
 
 ## 📂 File Structure
 ```
