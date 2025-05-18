@@ -51,12 +51,17 @@ This project is WiFi-enabled real-time environmental monitoring system built on 
 | DS18B20 Sensor | VCC | 3.3V |
 |  | GND | GND |
 |  | DATA | GPIO 15 |
-| PM2.5 Sensor | V-LED | 5V |
+| PM2.5 Sensor | V-LED | 5V (**through 150ohm resistor & 220uF capacitor)|
 |  | LED-GND | GND |
 |  | LED Control | GPIO 25 |
 |  | S-GND | GND |
 |  | Vo(Analog Output) | GPIO 34 |
 |  | VCC | 5V |
+| MQ135 Sensor | VCC | 5V |
+|  | GND | GND |
+|  | DO |  |
+|  | AO | GPIO 32 (**Voltage Divider with 2x 10 kilo-ohm resistors)|
+***Please Note: Make the electrical connections for PM2.5 and MQ135 sensors as shown in pictures in datasheets folder since it includes extra components such as capacitors & resistors*
 
 ## 🧠 Software Functionality
 ✅ Setup
