@@ -95,8 +95,16 @@ This project is WiFi-enabled real-time environmental monitoring system built on 
   - AQI Level (e.g., Clean Air, Moderate, Unhealthy, Hazardous)
     
 🌐 Web Server Output
-  - Styled HTML web page accessible at `http://<ESP32_IP>` showing all live sensor readings  
+  - Styled HTML web page accessible at `http://<ESP32_IP>` showing all live sensor readings
 
+🖥️ Serial Output Monitor
+  - Day, Date, Time
+  - Humidity(%)
+  - Temperature(°C)
+  - PM2.5 Dust Density (µg/m³)
+  - PM2.5 Dust Level
+  - Air PPM Level
+  - AQI Level (e.g., Clean Air, Moderate, Unhealthy, Hazardous)
 
 ## 🕓 Time Sync via NTP
 - **NTP Server**: ```pool.ntp.org```
