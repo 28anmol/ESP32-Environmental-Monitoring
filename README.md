@@ -204,10 +204,11 @@ ESP32-Environmental-Monitoring/
 |       |--- DHT11_Datasheet.pdf
 |       |--- MQ135_datasheet.pdf
 |--- images/  
-|       |---
-|       |---
-|       |---
-|       |---
+|       |--- OLED_Display.jpeg
+|       |--- SerialOutput1.png
+|       |--- Setup1.jpeg
+|       |--- Setup2.jpeg
+|       |--- WebInterface.jpeg
 |--- src/  
 |       |--- environmental_monitoring_system.ino  
 |--- LICENSE  
