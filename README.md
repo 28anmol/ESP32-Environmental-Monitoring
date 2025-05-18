@@ -237,7 +237,9 @@ ESP32-Environmental-Monitoring/
 *To be done...*
 
 ## 📸 Web Interface Display
-*To be done...*
+<p align="center">
+  <img src="https://github.com/28anmol/ESP32-Environmental-Monitoring/blob/main/images/WebInterface.jpeg" alt="ESP32 Web Interface" />
+</p>
 
 ## 📸 Serial monitor Output
 *To be done...*
