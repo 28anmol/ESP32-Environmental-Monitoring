@@ -135,6 +135,7 @@ MQ135 air quality/dust detector sensor requires an initial burn-in time of 24-48
 Once preheat is complete, perform calibration through arduino UNO to determine RO value of the sensor:
 1. Install Arduino IDE and ESP32 board support via board manager
 2. Make the necessary electrical connections(VCC, GND and analog input)
+   
 | Module | Pin Name | Arduino GPIO |
 |--------|----------|------------|
 | MQ135 Sensor | VCC | 5V |
