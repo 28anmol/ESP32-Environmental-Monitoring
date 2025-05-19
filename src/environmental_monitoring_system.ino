@@ -135,7 +135,8 @@ void pm_sensor_read(double *pmDustDensity, char *pmLevel)
   digitalWrite(pmLedPin, HIGH);
   delayMicroseconds(9680);
 
-  double pmVoltage = ((double)pmDustRaw * 3.3) / 4095.0;  // converting ADC back into corresponding voltage   
+  double pmVoltage = ((double)pmDustRaw * 3.3) / 4095.0;  // converting ADC back into corresponding voltage 
+  // the formula you see below has been obtained from the datasheet, if not given please calculate it using the graph between voltage vs dust density by approximating a straight line relationship between them
   *pmDustDensity = max(0.0, (double)((pmVoltage - 0.6) * 166.7));   // in ug/m3 (micrograms per cubic meter)
 
 
